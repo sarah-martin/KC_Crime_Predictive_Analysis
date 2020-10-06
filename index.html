@@ -15,45 +15,83 @@
 
     <body>
         <!--Jumbotron and Project Summary-->
-        <div class="jumbotron">
-            <h1 class="display-4">Kansas City Crime - Predictive Analysis</h1>
-            <p class="lead"><p>This project used SciKit Learn linear regression machine learning and Tableau to analyze current and potential future trends for crime in Kansas City, Missouri. All data is from data.kcmo.gov. For a more in-depth look at the process, visit <a href="https://github.com/sarah-martin/KC_Crime_Predictive_Analysis">our GitHub</a></p>
-            <b> </b>
-            <p>Has crime in Kansas City increased since 2014? What trajectory are we headed in for the future? Look through the data collections found on this landing page.</p>
+        <div style="background-color:darkslategray !important" class="jumbotron">
+            <h1 style="color:white" class="display-4"><strong>Kansas City Crime - Predictive Analysis</strong></h1>
+            <p class="lead"><p style="color:white">This project used SciKit Learn machine learning and Tableau to analyze current and potential future trends for crime in Kansas City, Missouri. The predictions were made using two different models (linear and polynomial) to contrast and compare effective modeling techniques. All data is from data.kcmo.gov. For a more in-depth look at the process, visit <a href="https://github.com/sarah-martin/KC_Crime_Predictive_Analysis">our GitHub</a></p>
         </div>
 
         <!--Visualization links-->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3>Tableau Visualizations</h3><p>Using Tableau, various analysis can be made from the data. </p>
+                    <center><h1>MACHINE LEARNING</h1><p>Using two models through SciKit Learn, yearly predictive predictions can be made regarding crime in KC. </p></center>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Linear Regression - Crime Predictions</h4>
+                    <img src="outputs/predC_linear.png" class="img-fluid" alt="Total Crime - Linear" height=300px width=400px>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <h4>Linear Regression - Homicide Predictions</h4>
+                    <img src="outputs/predM_linear.png" class="img-fluid" alt="Total Crime - Linear" height=300px width=400px>
+                    </a>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Polynomial Regression - Crime Predictions</h4>
+                    <img src="outputs/predC_poly.png" class="img-fluid" alt="Total Crime - Poly" height=300px width=400px>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <h4>Polynomial Regression - Homicide Predictions</h4>
+                    <img src="outputs/predM_poly.png" class="img-fluid" alt="Total Homicides - Poly" height=300px width=400px>
+                    </a>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-12">
+                    <center><h1>TABLEAU VISUALIZATIONS</h1><p>Using Tableau, various analysis can be made from the data. </p></center>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class='tableauPlaceholder' id='viz1601945635444' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;Crimevs_MurderTotalsPredictions&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Crimevs_MurderTotalsPredictions&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;Crimevs_MurderTotalsPredictions&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601945635444');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.50)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class='tableauPlaceholder' id='viz1601943901754' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;CrimeByZipCode&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject_16015995045740&#47;CrimeByZipCode' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;CrimeByZipCode&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601943901754');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+                <div class="col-md-4">
+                    <p>Using Tableau, various analysis can be made from the data. </p>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Using Tableau, various analysis can be made from the data. </p>
+                </div>
+                <div class="col-md-8">
+                    <div class='tableauPlaceholder' id='viz1601943855737' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;TableauCrimeForecact&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject_16015995045740&#47;TableauCrimeForecact' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;TableauCrimeForecact&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601943855737');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                </div>
+            </div>
+            <br><br>
             <div class="row">
                 <div class="col-md-12">
                     <div class='tableauPlaceholder' id='viz1601737718930' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5M&#47;5MHB5B59K&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;5MHB5B59K' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5M&#47;5MHB5B59K&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601737718930');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.50)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                 </div>
             </div>
             <br><br>
-            <div class="row">
-                <div class="col-md-8">
-                    <div class='tableauPlaceholder' id='viz1601940945685' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;CrimeByZipCode&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject_16015995045740&#47;CrimeByZipCode' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;CrimeByZipCode&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601940945685');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-                </div>
-                <div class="col-md-4">
-                    <p>Using Tableau, various analysis can be made from the data. </p>
-                </div>
-            </div>
-            <br><br>
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Using Tableau, various analysis can be made from the data. </p>
-                </div>
-                <div class="col-md-8">
-                    <div class='tableauPlaceholder' id='viz1601941268045' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;TableauCrimeForecact&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject_16015995045740&#47;TableauCrimeForecact' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;TableauCrimeForecact&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601941268045');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-                </div>
-            </div>
         </div>
-
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
       
       </html>
