@@ -17,9 +17,8 @@
         <!--Jumbotron and Project Summary-->
         <div style="background-color:darkslategray !important" class="jumbotron">
             <h1 style="color:white" class="display-4"><strong>Kansas City Crime - Predictive Analysis</strong></h1>
-            <p class="lead"><p style="color:white">This project used SciKit Learn machine learning and Tableau to analyze current and potential future trends for crime in Kansas City, Missouri. The predictions were made using two different models (linear and polynomial) to contrast and compare effective modeling techniques. All data is from data.kcmo.gov. For a more in-depth look at the process, visit <a href="https://github.com/sarah-martin/KC_Crime_Predictive_Analysis">our GitHub</a></p>
+            <p class="lead"><p style="color:white">Crime in Kansas City has become a national discussion involving cricial topics in social justice, resource access, and weapon laws. In order to make effective change, one must first understand the trends of the data. This project used SciKit Learn machine learning and Tableau to analyze current and potential future trends for crime in Kansas City, Missouri. The predictions were made using two different models (linear and polynomial) to contrast and compare effective modeling techniques. All data is from <a href="https://data.kcmo.org">data.kcmo.org</a>. For a more in-depth look at the process, visit <a href="https://github.com/sarah-martin/KC_Crime_Predictive_Analysis">our GitHub</a></p>
         </div>
-
         <!--Visualization links-->
         <div class="container">
             <div class="row">
@@ -69,13 +68,25 @@
                     <div class='tableauPlaceholder' id='viz1601943901754' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;CrimeByZipCode&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject_16015995045740&#47;CrimeByZipCode' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;CrimeByZipCode&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601943901754');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
                 </div>
                 <div class="col-md-4">
-                    <p>Using Tableau, various analysis can be made from the data. </p>
+                    <br><br>
+                    <center><h4>KC Crime Predictions</h4>
+                    <p>The Tableau Kansas City crime prediction above uses the data obtained by the polynomial machine learning model of this project. This visual representation clearly depicts the continuing increase in homicide by overall decrease in reported crimes in Kansas City. Why is violent crime increasing but overall crime decreasing? </p>
+                    <br>
+                    <h4>Zip Code Comparison</h4>
+                    <p>The zip code comparison of total reported crime provides a clear indication that the areas in Kansas City with the highest reported crimes lies East of 71 Highway.</p>
+                </center>
                 </div>
             </div>
             <br><br>
             <div class="row">
                 <div class="col-md-4">
-                    <p>Using Tableau, various analysis can be made from the data. </p>
+                    <br><br>
+                    <center><h4>Crime Forecast</h4>
+                    <p>The Tableau Kansas City crime forecast allows for the comparison of machine learning models on the data, to validate or invalidate the predictions created by our own models. This forecast shows the same trend of decreasing reported crime throughout Kansas City.</p>
+                    <br>
+                    <h4>Zip Code Comparison Bar Chart</h4>
+                    <p>Once again looking at the areas in Kansas City with the highest crime rates, this bar chart allows for a more accurate comparison between zip codes, and even looking at specific years.</p>
+                    </center>
                 </div>
                 <div class="col-md-8">
                     <div class='tableauPlaceholder' id='viz1601943855737' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;TableauCrimeForecact&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='FinalProject_16015995045740&#47;TableauCrimeForecact' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fi&#47;FinalProject_16015995045740&#47;TableauCrimeForecact&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1601943855737');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
